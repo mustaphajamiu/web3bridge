@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <h1>Register</h1>
+
+        <section>
+            <form action="/Submit" method="POST">
+            <label for="name">First Name:</label>
+            <input type="name" id="name" name="name" placeholder="John" required>
+
+            <label for="name">Last Name</label>
+            <input type="name" id="name" name="name" placeholder="Smith" required>
+            <br>
+            <label>Male</label>
+            <input type="radio">
+            <label>Female</label>
+            <input type="radio">
+            <label>Other</label>
+            <input type="radio">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" min="5" max="10" required>
+            <br>
+            <br>
+            <label for="birthday">Birthday:</label>
+            <select id="birthmonth" name="birthmonth" required>
+                <option value="" disabled selected>Month</option>
+                <option value="01">January</option>
+                <option value="02">February</option>
+                <option value="03">March</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June</option>
+                <option value="07">July</option>
+                <option value="08">August</option>
+                <option value="09">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <select id="birthday" required>
+                <option value="" disabled selected>Day</option>
+                <option>1</option>
+                <option>2</option>
+            </select>
+            <select id="birthyear" required>
+                <option value="" disabled selected>Year</option>                
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+            </select>
+            <br>
+            <br>
+            <label>I agree to the terms and conditions</label>
+            <input type="checkbox" required>
+
+            <br>
+
+            <button>Submit</button>
+
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

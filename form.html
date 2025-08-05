@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>HTML FORMS</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What is a Form?</h2>
+            <p>Forms are used to collect user input. They can include text fields, checkboxes, radio buttons, and more.</p>
+        </section>
+        <section>
+            <h2>Basic Form Structure</h2>
+            <form action="submit" method="POST">
+
+                <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="Phone">Phone:</label>
+                <input type="phone" id="phone" name="phone" required placeholder="phone">
+                </div>
+
+                <br>
+
+                <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age" min="1" max="120">
+                </div>
+
+                <br>
+
+                <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+        <br>
+        <br>
+        <input type="search" id="search" name="search" placeholder="search...">
+
+        <section>
+            <h2>Form Elements</h2>
+            <ul>
+                <li><b>Text Input:</b> Used for single line text input.</li>
+                <li><b>Email Input:</b> Used for email addresses.</li>
+                <li><b>Textarea:</b> Used for multi line text input.</li>
+                <li><b>Checkboxes:</b> Allow users to select multiple options.</li>
+                <li><b>Radio Buttons:</b> Allow users to select one option from a set.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
