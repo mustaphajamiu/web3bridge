@@ -1,0 +1,21 @@
+body{
+    margin: 20px auto;
+    background: #1e293b;
+    border-radius: 30px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    border: 5px solid ;
+}
+
+.calculator{
+    margin: 5px auto;
+    padding-bottom: 200px;
+    
+}
+
+input{
+    padding-bottom: 50px;
+    margin-bottom: 50px auto;
+}
